@@ -14,5 +14,6 @@ public class Atividade01 {
         System.out.print("Digite outro valor :");
         x1 = entrada.nextInt();
         System.out.print("a soma dos numeso é " + (x + x1));
+
     }
 }
