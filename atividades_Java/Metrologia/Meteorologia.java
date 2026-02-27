@@ -1,6 +1,5 @@
 package Metrologia;
 import java.util.Scanner;
-import java.util.ArrayList;
 
 public class Meteorologia {
     
@@ -8,8 +7,14 @@ public class Meteorologia {
     
     public static void main(String[] args) {
         
-        System.out.println("----------Calculadora de Temperatura----------");
+        System.out.println("----------Calcula de Temperatura----------");
         Tempereatura();
+
+        //double[][] teste = new double[3][1];
+        // teste[0][0] = 1;
+        // teste[2][0] = 5;
+        // double teste2 = teste[2][0];
+        // System.out.println(teste2);
     }
 
     public static void Tempereatura()
@@ -34,10 +39,15 @@ public class Meteorologia {
             double min = tabela[j][0];
             double max = tabela[j][1];
             double media = (min + max) / 2;
-            System.out.println("A temperatura em  °C" + cidades[j] + " é de " + tabela[j][0] + "|" + tabela[j][1] + "|" + media + "°C");
+            System.out.println("A temperatura em  °C na " + cidades[j] + " é de " + tabela[j][0] + "|" + tabela[j][1] + "|" + media + "°C");
 
         }
     }
+
+    // public static String Alerta()
+    // {
+        
+    // }
 
 
 }
